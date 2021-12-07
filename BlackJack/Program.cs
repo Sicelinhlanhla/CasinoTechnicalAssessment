@@ -16,7 +16,7 @@ namespace BlackJack
             Console.Write("To play the game please enter your name:");
             string playerName = Console.ReadLine();
             Console.WriteLine("Starting Game.......");
-          //  Thread.Sleep(3000);
+            Thread.Sleep(2000);
             casinoLogic.Play(playerName);
         }
 

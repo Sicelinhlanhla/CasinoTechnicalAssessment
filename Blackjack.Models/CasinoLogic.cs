@@ -42,7 +42,7 @@ namespace Blackjack.Models
                 string playersChoice = Console.ReadLine();
                 playersChoice.ToUpper();
                 Console.WriteLine("Shuffling......");
-               // Thread.Sleep(3000);
+                Thread.Sleep(2000);
 
                 while (!playersChoice.Equals("Y") && !playersChoice.Equals("N"))
                 {
@@ -66,7 +66,7 @@ namespace Blackjack.Models
                     {
                         winner = true;
                         Console.WriteLine("Calculating your total......");
-                        //  Thread.Sleep(3000);
+                        Thread.Sleep(2000);
                         Console.WriteLine(playerName + " your total is " + playerTotal + " you have lost the game. dealer wins");
                         Console.Write("Would you like to Go again? :");
                         string reply = Console.ReadLine();
@@ -94,14 +94,14 @@ namespace Blackjack.Models
                     DealerTotal = DealerTotal + cards.ElementAt(0).Value;
                     cards.RemoveAt(0);
                     Console.WriteLine("getting dealer's hand.....");
-                   // Thread.Sleep(3000);
+                    Thread.Sleep(2000);
                     printlist(DealerHand);
 
                     if (DealerTotal >= 17)
                     {
                         winner = true;
                         Console.WriteLine("Calculating your total......");
-                     //   Thread.Sleep(3000);
+                        Thread.Sleep(2000);
                         Console.WriteLine("Congratulations " + playerName + " your total is " + playerTotal + " you have won the game. dealer lost with a total of " + DealerTotal);
                         Console.Write("Would you like to Go again? :");
                         string reply = Console.ReadLine();
@@ -116,7 +116,7 @@ namespace Blackjack.Models
                     {
                         winner = true;
                         Console.WriteLine("Calculating your total......");
-                    //    Thread.Sleep(3000);
+                        Thread.Sleep(2000);
                         Console.WriteLine(playerName + " your total is " + playerTotal + " you have lost the game. dealer wins");
                         Console.Write("Would you like to Go again? :");
                         string reply = Console.ReadLine();
@@ -132,7 +132,7 @@ namespace Blackjack.Models
 
                         winner = true;
                         Console.WriteLine("Calculating your total......");
-                    //    Thread.Sleep(3000);
+                        Thread.Sleep(2000);
                         Console.WriteLine(playerName + " your total is " + playerTotal + " you have lost the game. dealer wins");
                         Console.Write("Would you like to Go again? :");
                         string reply = Console.ReadLine();
