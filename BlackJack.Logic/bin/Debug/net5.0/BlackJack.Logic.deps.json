@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BlackJack.Logic/1.0.0": {
+        "dependencies": {
+          "Blackjack.Models": "1.0.0"
+        },
+        "runtime": {
+          "BlackJack.Logic.dll": {}
+        }
+      },
+      "Blackjack.Models/1.0.0": {
+        "runtime": {
+          "Blackjack.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlackJack.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Blackjack.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
