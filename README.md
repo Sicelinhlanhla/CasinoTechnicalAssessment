@@ -1,0 +1,2 @@
+# CasinoTechnicalAssessment
+The player gets dealt cards until player chooses to stop receiving new cards.  As the player receives, each new card, his total is added. Cards are dealt randomly and each card is unique. If the player goes over 21, the player loses. IF the player decides to stop before 21, it’s the dealers turn to receive cards.  The dealer will continue to receive cards until his count is 17 or over.  If the dealers count is over 21, he loses.  The highest hand wins.
